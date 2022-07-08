@@ -1,0 +1,18 @@
+﻿- O que é Arquitetura Serverless?
+Serverless é um modelo de execução onde o provedor de cloud será o responsável por executar pedaços de código com recursos que irão ser alocados dinamicamente e cobrando apenas pelos recursos usados para executar aquele código em específico.
+
+- O que é Function as a service (FaaS)?
+FaaS é um modelo de execução computacional orientado a eventos que é executado em containers stateless. Essas funções gerenciam a lógica e o estado no lado do servidor usando serviços.
+
+- Quais são os benefícios de usar arquitetura Serverless?
+Proporciona que empresas de software criem e mantenham aplicativos web sem se preocupar com a infraestrutura em que eles estão funcionando.
+O preço é baseado na quantidade real de recursos consumidos por um aplicativo. 
+A própria natureza de ajuste dos servidores, sem a necessidade de atuação direta por parte dos usuários, proporciona um nível bem maior de agilidade.
+
+- O que é Cloud Computing (Computação em Nuvem)? E quais são seu benefícios?
+É o fornecimento de serviços de computação, incluindo servidores, armazenamento, bancos de dados, rede, software, análise e inteligência, pela Internet (“a nuvem”) para oferecer inovações mais rápidas, recursos flexíveis e economias de escala. Como principais benefícios podemos citar: agilidade na hora da implantação, ganho em custos operacionais da infraestrutura, segurança e confiabilidade dos dados.
+
+- Quais são as principais diferenças entre Arquitetura Monolítica, Microsserviços e Serverless ?
+Na Arquitetura Monolítica todos os recursos estão contidos em uma única aplicação, o que dificulta na manutenção e na implementação de novas ideias.
+Microsserviços os sistemas grandes e complexos são transformados em componentes individuais. Eles são quebrados e cada um fica espalhado com sua responsabilidade, podendo ser atualizado, implantado e dimensionado para atender às necessidades específicas da aplicação.Os microsserviços já solucionam muitos problemas em relação a escalabilidade, porém, ele ainda não solucionou o problema da ociosidade, ou seja, se o microsserviço está ativo, ele está ocupando recursos gerando custos mesmo em ociosidade.
+Serverless a aplicação funciona em um servidor, porém o gerenciamento do servidor ficará por conta de um provedor de nuvem. Um desenvolvedor não precisará se preocupar com configurações relacionadas a infraestrutura em que sua aplicação irá funcionar. Essas decisões ficarão por conta da nuvem.
